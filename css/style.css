@@ -1,15 +1,24 @@
 .navbar {
+  color: white;
   background: #58747F;
 }
 
 .navbar-brand {
-  color: white;
+  color: #ffffff;
 }
 
+.nav-item {
+  color: #ffffff;
+}
 
 .jumbotron {
   text-align: center;
   background: #D5E1E5;
+  padding: 10px;
+}
+
+.jumbotron img {
+  width: 250px
 }
 
 h1, h2 {
@@ -18,6 +27,22 @@ h1, h2 {
 
 p {
   font-family: sans-serif;
+}
+
+#about {
+  padding-bottom: 4rem;
+}
+
+#about img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+
+#portfolio {
+  padding-bottom: 4rem;
 }
 
 #portfolio img {
@@ -29,20 +54,30 @@ p {
   padding-right: 10px;
 }
 
+#skills {
+  padding-bottom: 4rem;
+}
+
 #skills ul {
   list-style-type: none;
 }
 
-section {
-  padding: 1rem 0;
+#ed {
+  padding-bottom: 4rem;
 }
 
-/* section .section-title {
+#exp {
+  padding-bottom: 4rem;
+}
+
+section {
+  padding: 10px 0;
+}
+
+.btn {
   text-align: center;
-  color: #007b5e;
-  margin-bottom: 50px;
-  text-transform: uppercase;
-} */
+  float: none;
+}
 
 .footer h1{
 	padding-top: 0.5rem;
