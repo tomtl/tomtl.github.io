@@ -51,7 +51,7 @@ p {
   max-height: 300px;
   border-radius: 8px;
   object-fit: cover;
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
 #skills {
