@@ -64,6 +64,12 @@ p {
   padding-bottom: 4rem;
 }
 
+#skills h4 {
+  text-align: center;
+  background: #D5E1E5;
+  border-radius: 5px;
+}
+
 #skills ul {
   list-style-type: none;
 }
