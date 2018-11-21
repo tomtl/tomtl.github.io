@@ -13,13 +13,23 @@
 
 .jumbotron {
   text-align: center;
+  font-weight: bold;
+  color: #000000;
   background: #D5E1E5;
   padding: 10px;
   text-decoration: none;
 }
 
+@media (min-width: 768px) {
+  .jumbotron {
+    background-image: url("../assets/water.png");
+    background-size: cover;
+  }
+}
+
 .jumbotron img {
-  width: 250px
+  width: 250px;
+  opacity: 1.0;
 }
 
 h1, h2 {
