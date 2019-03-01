@@ -3,11 +3,11 @@ html, body {
 }
 
 #title {
-    line-height: 0.5em;
+    /* line-height: 2em; */
 }
 
 #footer {
-    line-height: 0.25em;
+    line-height: 1em;
 }
 
 #mapid {
