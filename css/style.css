@@ -40,6 +40,11 @@ p {
   font-family: sans-serif;
 }
 
+
+.caption {
+  text-align: center;
+}
+
 #about {
   padding-bottom: 4rem;
 }
